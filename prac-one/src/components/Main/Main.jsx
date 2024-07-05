@@ -5,10 +5,10 @@ function Main() {
   return (
     <div className=' min-h-[550px] sm:min-h-[600px] bg-brandDark text-white  flex justify-center items-center'>
       <div className='container pb-8 xs:pt-12 '>
-        <div className=' grid grid-cols-1 sm:grid-cols-2 items-center flex-wrap '>
+        <div className='grid flex-wrap items-center grid-cols-1 sm:grid-cols-2'>
             <div>
-                <h1 className='lg:text-7xl text-5xl sm:text-6xl font-bold '>We serve the richest <span className='font-cursive text-primary'>Coffee</span> in the city</h1>
-                <button className='mt-6 border rounded-full h-12 w-40 hover:bg-black'>Coffee And Code</button>
+                <h1 className='text-5xl font-bold lg:text-7xl sm:text-6xl '>We serve the richest <span className='font-cursive text-primary'>Coffee</span> in the city</h1>
+                <button className='w-40 h-12 mt-6 border rounded-full hover:bg-black '>Coffee And Code</button>
             </div>
              
             <div className='min-h-[450px] flex justify-center items-center order-1 sm:order-2 relative '>
